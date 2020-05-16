@@ -1,12 +1,14 @@
 import React from 'react'
 import ListItem from './ListItem'
+import AddItem from './AddItem';
 
 const List = () => {
   return (
     <div>
-      <form>
-        <ListItem />
-      </form>
+
+      <ListItem />
+      <AddItem />
+
     </div>
   )
 }
