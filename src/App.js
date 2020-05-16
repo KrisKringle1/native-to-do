@@ -1,12 +1,14 @@
 import React from 'react';
-import List from './components/List'
+import ListForm from './components/ListForm'
+import PageTitle from './components/PageTitle'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <PageTitle />
+      <ListForm />
     </div>
   );
 }
